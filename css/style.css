@@ -59,6 +59,8 @@ header small {
 	font-weight: 700;
 	padding: 17px 55px;
 	margin-top: 33px;
+	display: inline-block;
+	text-decoration: none;
 	/* У Артема в header-button есть значение font-size, 
 	который почему то не работал в body, у меня работает, 
 	поэтому я его тут не написал */ 
@@ -172,6 +174,8 @@ footer {
 }
 
 #footer-button {
+	display: inline-block;
+	text-decoration: none;
 	cursor: pointer;
 	/* Добавил курсор */
 	display: inline-block;
